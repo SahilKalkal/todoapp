@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo Application</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <style type="text/css">
+    	body{
+    		background-color:black;
+    		font-family: 'Oswald', sans-serif;
+    	}
+    	div{
+    		background-image: url(1.jpg);
+    		background-attachment:fixed;
+    		background-size:cover;
+    		height:100%;
+    		width:100%;
+    		opacity: 1;
+    		position:fixed;
+    		left:0;
+    		
+    	}
+    	h1.heading{
+    		font-size: 80px;
+    		color:white;
+    		font-family: cursive;
+    	}
+    	input#one{
+            height:34px;
+            width:280px;
+            border-radius:12px;
+            border-width:0;
+            background: rgb(255,250,250);
+            color:black;
+            opacity: 0.9;
+            
+
+    	}
+    	input#one:hover{
+    		background: white;
+    		opacity:1;
+    	}
+    	button#two,#three{
+    		border-radius:10px;
+    	}
+    	label{
+    		color:white;
+    		font-size: 20px;
+    		font-weight: bolder;
+            opacity: 1;
+            position: relative;
+            left: 0;
+
+    	}
+    	input#check{
+    		color:dodgerblue;
+    		opacity: 1;
+    		border-radius: 10px;
+    	}
+    </style>
+</head>
+<body>
+	<center>
+		<div>
+		<h1 class="heading">My Todo List <i class="fas fa-thumbs-up"></i></h1><br><br><br><br>
+	<div id="first">
+		<input type="text" name="inputs" id="one" placeholder=" Write your goals"><br><br>
+		<button type="submit" class="btn btn-success" id="two">Add Todo </button>
+		<button type="submit" class="btn btn-danger" id="three">Remove Done Todo </button>
+	</div><br><br><br><br><br>
+	<div id="second">
+		<ul id="list">
+			<!-- <li id="list1">
+				<input type="checkbox" id="check" ><label>&nbsp;&nbsp;Go to code</label>
+			</li> -->
+			<!-- <li id="list1">
+				<input type="checkbox" checked><label>Go to run</label>
+			</li>
+			<li id="list1">
+				<input type="checkbox" checked><label>helo</label>
+			</li> -->
+			
+		</ul>
+	</div></center>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
